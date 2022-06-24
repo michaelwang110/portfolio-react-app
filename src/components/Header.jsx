@@ -14,22 +14,22 @@ const Header = () => {
 
       {/* Menu */}
       <ul className='hidden md:flex'>
-        <li>
+        <li className='hover:text-white hover:underline duration-1000'>
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className='hover:text-white hover:underline duration-1000'>
           <Link to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className='hover:text-white hover:underline duration-1000'>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className='hover:text-white hover:underline duration-1000'>
           <Link to='resume' smooth={true} duration={500}>
             Resume
           </Link>
@@ -43,11 +43,26 @@ const Header = () => {
 
       {/* Mobile Menu */}
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl'>Home</li>
-        <li className='py-6 text-4xl'>About</li>
-        <li className='py-6 text-4xl'>Skills</li>
-        <li className='py-6 text-4xl'>Resume</li>
-        <li className='py-6 text-4xl'>Contact</li>
+        <li className='py-6 text-4xl hover:text-white hover:underline duration-1000'>
+          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className='py-6 text-4xl hover:text-white hover:underline duration-1000'>
+          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className='py-6 text-4xl hover:text-white hover:underline duration-1000'>
+          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className='py-6 text-4xl hover:text-white hover:underline duration-1000'>
+          <Link onClick={handleClick} to='resume' smooth={true} duration={500}>
+            Resume
+          </Link>
+        </li>
       </ul>
     </div>
   )
