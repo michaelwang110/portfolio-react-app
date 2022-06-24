@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-50'>
       <div>
-        <div className='text-4xl font-bold'>MW</div>
+        <div className='text-4xl font-bold text-pink-600'>MW</div>
       </div>
 
       {/* Menu */}
