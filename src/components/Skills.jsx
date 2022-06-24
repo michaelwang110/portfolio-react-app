@@ -28,15 +28,15 @@ const Skills = () => {
             </div>
             <div className='rounded-lg hover:scale-110 border border-pink-800 hover:border-pink-500 duration-500'>
               <img className='mt-5 mb-5 w-20 mx-auto' src={nextjs} alt='react' />
-              <p className='mt-1 mb-2'>NextJS</p>
-            </div>
-            <div className='rounded-lg hover:scale-110 border border-pink-800 hover:border-pink-500 duration-500'>
-              <img className='mt-2 w-20 mx-auto' src={dotnetcore} alt='react' />
-              <p className='mt-1 mb-2'>.Net Core</p>
+              <p className='mt-6 mb-2'>NextJS</p>
             </div>
             <div className='rounded-lg hover:scale-110 border border-pink-800 hover:border-pink-500 duration-500'>
               <img className='mt-2 w-20 mx-auto' src={django} alt='react' />
               <p className='mt-1 mb-2'>Django Rest</p>
+            </div>
+            <div className='rounded-lg hover:scale-110 border border-pink-800 hover:border-pink-500 duration-500'>
+              <img className='mt-2 w-20 mx-auto' src={dotnetcore} alt='react' />
+              <p className='mt-1 mb-2'>.Net Core</p>
             </div>
             <div className='rounded-lg hover:scale-110 border border-pink-800 hover:border-pink-500 duration-500'>
               <img className='mt-2 w-20 mx-auto' src={apollo} alt='react' />
