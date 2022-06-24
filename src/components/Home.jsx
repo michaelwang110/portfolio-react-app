@@ -3,10 +3,7 @@ import '../styles/Bubbles.css';
 
 const Home = () => {
   return (
-    <>
-
     <div name='home' className='w-full h-screen bg-[#0a192f]'>
-
       {/* Container */}
       <div class="max-w-[1000px] mx-auto flex flex-col justify-center h-full px-4">
         {/*
@@ -29,7 +26,6 @@ const Home = () => {
         </h1>
       </div>
     </div>
-    </>
   )
 }
 
