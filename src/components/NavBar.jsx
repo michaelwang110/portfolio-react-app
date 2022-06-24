@@ -1,6 +1,10 @@
 import React, {useState} from 'react';
 import Logo from '../assets/logo.png';
-import {FaBars, FaTimes} from 'react-icons/fa';
+import Resume from '../assets/michael_wang_resume.pdf';
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
+import {HiOutlineMail} from 'react-icons/hi';
+import {BsFillPersonLinesFill} from 'react-icons/bs';
+import { mailHref } from './helpers/mailHref';
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -36,7 +40,43 @@ const NavBar = () => {
       </ul>
 
       {/* Social Icons */}
-      <div className='hidden'></div>
+      <div className='flex fixed flex-col top-[35%] left-0'>
+        <ul>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href='https://www.linkedin.com/in/michaelmhw1/'
+            >
+              LinkedIn <FaLinkedin size={30}/>
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href='https://github.com/michaelwang110'
+            >
+              Github <FaGithub size={30}/>
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href={mailHref()}
+            >
+              Email <HiOutlineMail size={30}/>
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href={Resume}
+              download
+            >
+              Resume <BsFillPersonLinesFill size={30}/>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   )
 }
