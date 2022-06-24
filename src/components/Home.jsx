@@ -22,7 +22,7 @@ const Home = () => {
         </h1>
         <h1 className='mt-4 sm:mt-8 text-4xl sm:text-7xl font-bold text-[#ffffff] z-20'>
           I'm {<span className='text-4xl sm:text-7xl font-bold text-pink-600'>Michael Wang</span>}
-          , a Software Engineer based in Sydney.
+          , a Software Engineer from Sydney, Australia.
         </h1>
       </div>
     </div>
