@@ -1,4 +1,4 @@
-import NavBar from "./components/NavBar";
+import Header from "./components/Header";
 import Home from './components/Home';
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -7,7 +7,7 @@ import Resume from "./components/Resume";
 const App = () => {
   return (
     <div>
-      <NavBar />
+      <Header />
       <Home />
       <About />
       <Skills />

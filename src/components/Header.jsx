@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import {FaBars, FaTimes} from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
-const NavBar = () => {
+const Header = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(prev => !prev);
 
@@ -13,11 +14,26 @@ const NavBar = () => {
 
       {/* Menu */}
       <ul className='hidden md:flex'>
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Work</li>
-        <li>Contact</li>
+        <li>
+          <Link to='home' smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to='about' smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to='skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to='resume' smooth={true} duration={500}>
+            Resume
+          </Link>
+        </li>
       </ul>
 
       {/* Hamburger */}
@@ -30,11 +46,11 @@ const NavBar = () => {
         <li className='py-6 text-4xl'>Home</li>
         <li className='py-6 text-4xl'>About</li>
         <li className='py-6 text-4xl'>Skills</li>
-        <li className='py-6 text-4xl'>Work</li>
+        <li className='py-6 text-4xl'>Resume</li>
         <li className='py-6 text-4xl'>Contact</li>
       </ul>
     </div>
   )
 }
 
-export default NavBar
+export default Header
