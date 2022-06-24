@@ -20,7 +20,7 @@ const About = () => {
                 <p>I am passionate about building quality software that improves the lives of those around me. I can wear many hats and have had experience with a wide variety of Frontend and Backend technologies.</p>
               </div>
               <div className='pt-4'>
-                <p>Outside of software development you'll find me hunting down the best yum cha in Sydney, practicing kicks at muay thai, and petting all the good dogs.</p>
+                <p>Outside of software development you'll find me looking for the best yum cha in Sydney, practicing kicks at muay thai, and petting all the good dogs.</p>
               </div>
               <div className='pt-4'>
                 <p>Feel free to connect with me!</p>
