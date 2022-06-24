@@ -21,7 +21,7 @@ const Skills = () => {
             <p className='sm:text-4xl text-2xl font-bold inline border-b-4 border-pink-600'>Skills</p>
           </div>
           {/* Content */}
-          <div className='w-full grid grid-cols-3 sm:grid-cols-5 gap-8 text-center justify-center a'>
+          <div className='w-full grid grid-cols-2 sm:grid-cols-5 gap-8 text-center justify-center a'>
             <div className='rounded-lg hover:scale-110 border border-pink-800 hover:border-pink-500 duration-500'>
               <img className='mt-2 w-20 mx-auto' src={react} alt='react' />
               <p className='mt-1 mb-2'>ReactJS</p>

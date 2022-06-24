@@ -1,7 +1,5 @@
 import React from 'react'
 import {HiOutlineMail} from 'react-icons/hi';
-import Resume from '../assets/michael_wang_resume.pdf';
-import {BsFillPersonLinesFill} from 'react-icons/bs';
 import { mailHref } from './helpers/mailHref';
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
 
@@ -25,13 +23,6 @@ const Socials = () => {
             href={mailHref()}
           >
             <HiOutlineMail size={40}/>
-          </a>
-          <a
-            className='hover:text-white duration-500 text-gray-300'
-            href={Resume}
-            download
-          >
-            <BsFillPersonLinesFill size={40}/>
           </a>
     </div>
   )
