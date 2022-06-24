@@ -1,9 +1,5 @@
 import React, {useState} from 'react';
-import Resume from '../assets/michael_wang_resume.pdf';
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
-import {HiOutlineMail} from 'react-icons/hi';
-import {BsFillPersonLinesFill} from 'react-icons/bs';
-import { mailHref } from './helpers/mailHref';
+import {FaBars, FaTimes} from 'react-icons/fa';
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
