@@ -3,7 +3,7 @@ import Socials from './Socials';
 
 const Footer = () => {
   return (
-    <div name='footer' className='sm:flex w-full h-fit bg-[#0a192f] text-gray-300 pt-24'>
+    <div name='footer' className='sm:flex w-full h-fit bg-[#0a192f] text-gray-300 pt-16'>
         {/* desktop */}
         <div className='sm:flex hidden ml-5 text-sm'>
           <span className='text-gray-400'>© 2022 All rights reserved. –&nbsp;</span> Designed & Coded by Michael Wang

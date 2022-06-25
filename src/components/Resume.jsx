@@ -20,7 +20,7 @@ const Resume = () => {
           </div>
           <div className='flex justify-center items-center'>
             <a 
-              className='text-gray-200 bg-pink-600 font-size text-2xl hover:bg-pink-700 rounded-full mt-6  duration-500'
+              className='text-gray-200 bg-pink-600 font-size text-2xl hover:scale-110 hover:bg-pink-700 rounded-full mt-6  duration-500'
               href={resume}
               download
             >
